@@ -1,0 +1,11 @@
+yarn add -D gh-pages
+
+npm install --save-dev @babel/plugin-proposal-private-property-in-object
+yarn add --save-dev @babel/plugin-proposal-private-property-in-object
+yarn run build
+
+npm run deploy
+
+npm start
+
+npm serve -s build
